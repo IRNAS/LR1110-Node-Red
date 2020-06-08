@@ -8,12 +8,14 @@ Example of Node-Red flow that communicates with Lora Cloud Server
 3. Select import option and copy contents of lr1110_flow.json into window or just import json file.
 4. You will see new tab named **LR1110 example** above dashboard. Click it to see flow that you just imported.
 
+![example_flow](example_flow.png)
 
 ## Explanation of example
 
 Example shows how to build a body of post request and how to send it Lora Cloud server.
 After deploying the flow, we can click inject node to send the request to the server and observe response in debug window.
-**Important:** this example will not work out of the box, user needs to provide AUTH_TOKEN inside of *Prepare request* node. Token is provided by Lora Cloud on this [link](https://www.loracloud.com/), after creating a free profile. Maximum use of tokens is limited to 1000 per month for free subscription.
+
+**Important:** this example will not work out of the box, user needs to provide **AUTH_TOKEN** inside *Prepare request* node. Token is provided by Lora Cloud on this [link](https://www.loracloud.com/), after creating a free profile. Maximum use of tokens is limited to 1000 per month for free subscription.
 
 ## Example of a good response:
 
